@@ -15,58 +15,94 @@
   </head>
 
   <body>
-    <br>
+    <br />
     <div class="container">
-        <div class="col-md-6">
-      <form>
-        <div class="form-group">
-          <label for="firstName">First Name:</label>
-<br>
-          <input
-            type="text"
-            class="form-control"
-            id="firtName"
-            placeholder="First Name"
-          />
-        </div>
-<br>
-        <div class="form-group">
-          <label for="lastName">Last Name:</label>
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <br />
+            <input
+              type="text"
+              class="form-control"
+              id="firtName"
+              placeholder="First Name"
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <label for="lastName">Last Name:</label>
 
-          <input
-            type="text"
-            class="form-control"
-            id="lastName"
-            placeholder="Last Name"
-          />
-        </div>
-<br>
-        <div class="form-group">
-          <label for="email">Email:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="lastName"
+              placeholder="Last Name"
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <label for="email">Email:</label>
 
-          <input
-            type="email"
-            class="form-control"
-            id="email"
-            placeholder="E-mail"
-          />
-        </div>
-<br>
-        <div class="form-group">
-          <label for="password">Password:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="E-mail"
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <label for="password">Password:</label>
 
-          <input
-            type="password"
-            class="form-control"
-            id="password"
-            placeholder="password"
-          />
-        </div>
-<br>
-        <button type="submit" class="btn btn-success"> Send </button>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              placeholder="password"
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <label for="city">Şehir:</label>
 
-      </form>
-    </div>
+            <select class="form-control" id="city">
+              <option>Ankara</option>
+              <option>Kayseri</option>
+              <option>İzmir</option>
+            </select>
+          </div>
+          <br />
+          <div class="form-group">
+            <label for="bio">About:</label>
+
+            <textarea rows="3" class="form-control" id="bio"> </textarea>
+          </div>
+          <br />
+          <div class="form-check">
+            <label class="form-check-label" for="term">I accept the terms
+              <input
+              type="checkbox"
+              class="form-check-input"
+              id="term"
+            />
+            </label>
+
+          </div>
+          <br>
+          <div class="form-check">
+            <label class="form-check-label" for="term">Option
+              <input
+              type="radio"
+              class="form-check-input"
+              id="radio"
+            />
+            </label>
+
+          </div>
+          <button type="submit" class="btn btn-success">Send</button>
+        </form>
+      </div>
     </div>
   </body>
 
